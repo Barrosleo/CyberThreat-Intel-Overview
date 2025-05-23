@@ -1,0 +1,14 @@
+[
+  {
+    "timestamp": "2025-05-15T08:00:00Z",
+    "indicator": "1.2.3.4",
+    "description": "Suspicious IP address observed in simulated threat feed",
+    "source": "Dummy Threat Feed"
+  },
+  {
+    "timestamp": "2025-05-15T09:00:00Z",
+    "indicator": "bad-domain.com",
+    "description": "Domain associated with malware distribution",
+    "source": "Dummy Threat Feed"
+  }
+]
