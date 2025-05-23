@@ -11,6 +11,26 @@
 
 **Target Audience:** SOC Level 1 analysts, cyber threat intelligence professionals, and anyone interested in understanding and applying threat intelligence methodologies.
 
+### Repository Structure
+```
+CyberThreat-Intel-Overview/
+├── README.md                          # Project overview, installation, usage, etc.
+├── .gitignore                         # Files/folders to ignore
+├── docs/
+│   ├── Key_Concepts.md                # Documentation on core threat intelligence concepts
+│   ├── Case_Studies.md                # Summaries of case studies and lessons learned
+│   ├── Research_Articles.md           # Curated list of influential research articles
+│   └── Intelligence_Lifecycle.md      # Detailed explanation of the intelligence lifecycle
+├── scripts/
+│   ├── data_collection.py             # Sample script to simulate threat data collection
+│   └── data_analysis.py               # Sample script to simulate threat data analysis
+├── examples/
+│   ├── sample_data.json               # Example input data (e.g., incident/threat data)
+│   └── sample_report.txt              # Example output report from analysis
+└── specialized_projects/
+    └── README.md                      # (Optional) Index or links to further projects
+```
+
 ---
 
 ## 2. Core Components & Functionality
@@ -44,7 +64,7 @@
 
 ### Installation:
 1. **Clone the repository:**
-   ```bash
+   ```
    git clone https://github.com/YourGitHubUsername/CyberThreat-Intel-Overview.git
    cd CyberThreat-Intel-Overview
    ```
@@ -54,6 +74,9 @@
   source venv/bin/activate   # On Windows: venv\Scripts\activate
   pip install -r requirements.txt  # (If you add a requirements.txt later)
   ```
+
+---
+
 ## 4. Usage Examples
 
 ### Running the Data Collection Script:
@@ -67,6 +90,8 @@ This simulates the data collection phase and prints dummy threat indicator data.
   python scripts/data_analysis.py
   ```
 This script reads sample data from examples/sample_data.json and outputs an analysis report.
+
+---
 
 ## 5. Supporting Resources & Documentation
 
@@ -82,6 +107,8 @@ This script reads sample data from examples/sample_data.json and outputs an anal
 
 ### Specialized Projects: More focused projects are indexed in the specialized_projects/ directory.
 
+---
+
 ## 6. Technical Considerations
 
 - **Programming Language:** Python
@@ -94,6 +121,8 @@ This script reads sample data from examples/sample_data.json and outputs an anal
 
 - **Version Control:** Git/GitHub
 
+---
+
 ## 7. Desired Outcomes/Impact
 
 - **Improve Analyst Efficiency:** Automate and streamline threat data collection and analysis.
@@ -102,13 +131,19 @@ This script reads sample data from examples/sample_data.json and outputs an anal
 
 - **Hands-On Learning:** Enable practical, real-world simulation of the threat intelligence lifecycle.
 
+---
+
 ## 8. Contributing
 
 We welcome contributions! Please see CONTRIBUTING.md for guidelines on submitting issues, feature requests, and pull requests.
 
+---
+
 ## 9. License
 
 This project is licensed under the MIT License – see the LICENSE file for details.
+
+---
 
 ## 10. Acknowledgements
 
