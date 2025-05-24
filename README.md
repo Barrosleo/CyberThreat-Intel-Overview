@@ -65,7 +65,7 @@ CyberThreat-Intel-Overview/
 ### Installation:
 1. **Clone the repository:**
    ```
-   git clone https://github.com/YourGitHubUsername/CyberThreat-Intel-Overview.git
+   git clone https://github.com/Barrosleo/CyberThreat-Intel-Overview.git
    cd CyberThreat-Intel-Overview
    ```
 2. **Create a virtual environment and install dependencies:**
